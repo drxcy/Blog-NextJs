@@ -1,0 +1,44 @@
+.container
+    {
+    height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: gray;
+        /* flex-wrap: wrap;
+        flex-direction: row; */
+        position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+      }
+      
+      .logo{
+        font-weight: bold;
+       
+        
+      }
+      
+      .text{
+        font-size: 12px;
+        margin-top: 10px;
+      }
+      
+      @media (max-width:768px){
+        .container{
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+        }
+      }
+      
+    .container
+      {
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: gray;
+        /* flex-wrap: wrap;
+        flex-direction: row; */
+      }
